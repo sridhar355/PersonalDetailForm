@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/personaldetails" method="get">
+        <label for="Personal-details">Personal details</label><br>
+        <label for="salutation">Salutation</label><br>
+        <select>
+            <option value="none">--None--</option>
+            <option value="mr">Mr.</option>
+            <option value="mrs">Mrs.</option>
+        </select>
+        <br><br>
+        <label for="firstname">First Name:</label>
+        <input type="text" id="firstname" name="firstname" placeholder="abcd">
+        <br><br>
+        <label for="lastname">Last Name:</label>
+        <input type="text" id="lastname" name="lastname" placeholder="abcd">
+        <br><br>
+        <label for="gender">Gender: </label>
+        <input type="radio" id="gender" name="gender" value="Male">
+        <label for="gender">Male</label>
+        <input type="radio" id="gender" name="gender" value="Female">
+        <label for="gender">Female</label>
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="abc@gmail.com">
+        <br><br>
+        <label for="dob">Date of birth:</label>
+        <input type="date" id="dob" name="dob">
+        <br><br>
+        <label for="address">Address:</label><br>
+        <textarea rows="5" cols="30"></textarea>
+        <br><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
